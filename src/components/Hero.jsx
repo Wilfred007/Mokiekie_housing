@@ -1,6 +1,7 @@
 import { Bath, BedDouble, ParkingCircle, ParkingCircleIcon } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
+import { Button } from './ui/button'
 
 
 
@@ -98,10 +99,14 @@ function Hero() {
       className='brightness-50'
       />
     </div>
-    <div className='flex justify-center text-3xl p-5 font-extrabold text-white mt-[-230px] blur-none'>
+    <div className='flex justify-center text-2xl p-5 font-extrabold text-white mt-[-200px] blur-none'>
+      <div>
       You Number One Property <br/> Search Center
+      <p className='p-4 text-xs text-white blur-none'>We are you number one property service center</p>
+    <Button variant='outline' className=''>Read More</Button>
     </div>
-    <p className='p-5 text-white font-bold blur-none'>We are you number one property service center</p>
+    </div>
+
     <div>
       {
         houses.map((house) => {
