@@ -9,7 +9,7 @@ import React from 'react'
 
 const houses = [
   {
-    type: "Detached duplex for sale",
+    type: "% Bedroom Apartment",
     description: "For sale: luxury 5 bedroom detached duplex at old ikoyi, lagos features: -terrace, -all rooms ensuite and large, -large madam's room with massive walk in closet and bathroom",
     picture: "/house1.jpeg",
     price:"N 200,000,000",
@@ -25,7 +25,8 @@ const houses = [
     price:"N 250,000,000",
     bedrooms: 4,
     bathrooms: 4,
-    toilets: 3
+    toilets: 3,
+    location: "Kubwa, FCT, Abuja"
 
     },
   {
@@ -35,37 +36,41 @@ const houses = [
     price:"N 200,000,000",
     bedrooms: 5,
     bathrooms: 5,
-    toilets: 6
+    toilets: 6,
+    location: "Gwarimpa, FCT, Abuja"
 
     },
   {
-    type: "Detached duplex for sale",
+    type: "A 5 Bedroom duplex for sale",
     description: "For sale: luxury 5 bedroom detached duplex at old ikoyi, lagos features: -terrace, -all rooms ensuite and large, -large madam's room with massive walk in closet and bathroom",
     picture: "/house3.jpeg",
     price:"N 900,000,000",
     bedrooms: 7,
     bathrooms: 7,
-    toilets: 8
+    toilets: 8,
+    location: "Kubwa, FCT, Abuja"
 
     },
   {
-    type: "Detached duplex for sale",
+    type: "A 6 Bedroom Apartment",
     description: "For sale: luxury 5 bedroom detached duplex at old ikoyi, lagos features: -terrace, -all rooms ensuite and large, -large madam's room with massive walk in closet and bathroom",
     picture: "/house4.jpeg",
     price:"N 900,000,000",
     bedrooms: 6,
     bathrooms: 6,
-    toilets: 7
+    toilets: 7,
+    location: "Maitama, FCT, Abuja"
 
     },
   {
-    type: "Detached duplex for sale",
+    type: "A Single Family Home ",
     description: "For sale: luxury 5 bedroom detached duplex at old ikoyi, lagos features: -terrace, -all rooms ensuite and large, -large madam's room with massive walk in closet and bathroom",
     picture: "/house5.jpeg",
     price:"N 200,000,000",
     bedrooms: 5,
     bathrooms: 5,
-    toilets: 6
+    toilets: 6,
+    location: "Karu, FCT, Abuja"
 
     },
   {
@@ -75,7 +80,8 @@ const houses = [
     price:"N 200,000,000",
     bedrooms: 5,
     bathrooms: 5,
-    toilets: 6
+    toilets: 6,
+    location: "Wuse2, FCT, Abuja"
 
     }
 ]
@@ -83,7 +89,7 @@ function Hero() {
 
   return (
     <>
-    <div className='flex justify-center text-3xl p-5 font-extrabold text-blue-900'>
+    <div className='flex justify-center text-5xl p-5 font-extrabold text-blue-900'>
       You Number One Property <br/> Search Center
     </div>
     <p className='p-5 text-gray-700'>We are you number one property service center</p>
@@ -108,6 +114,7 @@ function Hero() {
                 <h1 className='font-bold text-xl text-gray-700'>{house.type}</h1>
                 <h1 className='text-gray-600'>{house.price}</h1>
                 <h1 className='text-gray-700'>{house.description}</h1>
+                <h1 className='text-gray-800 mt-3 font-semibold'>{house.location}</h1>
               </div>
               <div className='flex gap-2 mt-2 justify-between'>
                 <h2 className="flex gap-2 bg-yellow-200 text-sm rounded-md p-2 text-gray-500 justify-center items-center w-full">
