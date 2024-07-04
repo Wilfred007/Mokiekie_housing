@@ -9,7 +9,7 @@ import React from 'react'
 
 const houses = [
   {
-    type: "% Bedroom Apartment",
+    type: "A 5 Bedroom Apartment",
     description: "For sale: luxury 5 bedroom detached duplex at old ikoyi, lagos features: -terrace, -all rooms ensuite and large, -large madam's room with massive walk in closet and bathroom",
     picture: "/house1.jpeg",
     price:"N 200,000,000",
