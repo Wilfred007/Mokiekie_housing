@@ -89,10 +89,19 @@ function Hero() {
 
   return (
     <>
-    <div className='flex justify-center text-5xl p-5 font-extrabold text-blue-900'>
+    <div className=''>
+      <Image
+      src='/home.jpg'
+      height={900}
+      width={800}
+      alt='hero'
+      className='brightness-50'
+      />
+    </div>
+    <div className='flex justify-center text-3xl p-5 font-extrabold text-white mt-[-230px] blur-none'>
       You Number One Property <br/> Search Center
     </div>
-    <p className='p-5 text-gray-700'>We are you number one property service center</p>
+    <p className='p-5 text-white font-bold blur-none'>We are you number one property service center</p>
     <div>
       {
         houses.map((house) => {
