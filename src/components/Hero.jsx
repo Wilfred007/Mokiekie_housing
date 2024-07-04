@@ -83,9 +83,10 @@ function Hero() {
 
   return (
     <>
-    <div className='mt-10'>
-      hello world
+    <div className='flex justify-center text-3xl p-5 font-extrabold text-blue-900'>
+      You Number One Property <br/> Search Center
     </div>
+    <p className='p-5 text-gray-700'>We are you number one property service center</p>
     <div>
       {
         houses.map((house) => {
