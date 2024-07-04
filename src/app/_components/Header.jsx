@@ -14,7 +14,7 @@ const Header = () => {
     <div className='flex justify-between p-6 px-10 shadow-sm gap-3 fixed top-0 w-full z-10 bg-white'>
       <div className='flex gap-1'>
         <h1 className='font-bold text-1xl text-slate-800'>Mokiekie</h1>
-        <h1 className=''>Global Ltd</h1>
+        <h1 className='text-sm'>Global Ltd</h1>
       </div>
       {
       <ul className='flex gap-5'>
